@@ -6,8 +6,10 @@ const isFolder = (inputPath) => {
     return inputPath.charAt(inputPath.length - 1) === path.sep;
 }
 
+// TODO: callback or promisify ?
 const create = (inputPath) => {
 
+    if (!inputPath) return inputPath;
     // TODO: raise an exception if no inputPath is provided
     if (!fs.existsSync(inputPath)) {
 

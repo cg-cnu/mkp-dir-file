@@ -1,13 +1,18 @@
 {
-  "name": "mkp-dir-file",
-  "version": "1.0.0",
-  "description": "make recursive directories and file",
+  "name": "node-mkdirfilep",
+  "version": "0.0.1",
+  "description": "Its mkdir -p for directories and files also!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "sreenivas alapati(cg-cnu)",
   "license": "MIT",
+  "keywords": [
+    "mkdir", "mkdirp", "directory", "file"
+  ],
+  "repository": "https://github.com/cg-cnu/node-mkdirfilep",
+  "homepage": "https://github.com/cg-cnu/node-mkdirfilep",
+  "bugs": {
+    "url": "https://github.com/cg-cnu/node-mkdirfilep/issues"
+  },
   "dependencies": {
     "mkdirp": "^0.5.1"
   }
